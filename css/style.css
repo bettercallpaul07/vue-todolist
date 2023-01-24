@@ -1,0 +1,57 @@
+.logo {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 300px;
+}
+
+.new-task {
+    text-align: center;
+}
+
+.new-task input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    min-width: 300px;
+    margin-right: 10px;
+}
+
+.new-task button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.tasks-container {
+    margin: 40px; 
+    border-radius: 10px;
+    background: #F5F7F7;
+    padding: 30px;
+}
+
+.tasks-container ul {
+    list-style: none;
+}
+
+.task {
+    border-bottom: 1px solid #DADEE1;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+.task:hover {
+    background: white;
+}
+
+.task i {
+    float: right;
+}
+
+.list-box ul li span.done {
+    text-decoration:line-through;
+    color: green;
+}
