@@ -26,14 +26,14 @@
     cursor: pointer;
 }
 
-.tasks-container {
+.task-container {
     margin: 40px; 
     border-radius: 10px;
     background: #F5F7F7;
     padding: 30px;
 }
 
-.tasks-container ul {
+.task-container ul {
     list-style: none;
 }
 
@@ -43,15 +43,27 @@
     cursor: pointer;
 }
 
-.task:hover {
+.tasks:hover {
     background: white;
 }
 
-.task i {
+.task-container i {
     float: right;
 }
 
-.list-box ul li span.done {
+.task ul li .done {
     text-decoration:line-through;
     color: green;
+}
+
+.task ul li i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+.task ul li {
+    border-bottom: 1px solid #dadee1;
+    display: flex;
+    justify-content: space-between;
 }

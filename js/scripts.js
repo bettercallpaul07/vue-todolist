@@ -45,7 +45,17 @@ createApp({
             })
             this.newTodo = "";
         }
-    }
+        },
+
+        checkDone: function(element) {
+            if (element.done) {
+                return done;
+            }
+
+            else {
+                return "";
+            }
+        }
 
     }
 
