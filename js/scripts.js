@@ -32,7 +32,7 @@ createApp({
     methods: {
 
         removeTodo: function(index) {
-            this.todos.splice(index,1);
+            this.tasks.splice(index,1);
         },
 
         addTodo: function() {
